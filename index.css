@@ -1,0 +1,49 @@
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+  }
+  
+  #quote-box{
+    width:30%;
+    padding:20px;
+    position:absolute;
+    top:40%;
+    background-color:white;
+    border-radius:3px;
+  }
+  
+  #buttons{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  #new-quote{
+    width:115px;
+    height:30px;
+    font-family:vardana;
+    background-color:#f06d06;
+    border:0px;
+    border-radius:4px;
+    cursor:grab;
+  }
+  
+  #tweet-quote{
+    border:opx;
+    background-color:#f06d06;
+    width:75px;
+    height:30px;
+    padding-top:3px;
+    box-sizing:border-box;
+    border-radius:4px;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  
